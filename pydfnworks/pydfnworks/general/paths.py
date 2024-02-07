@@ -117,12 +117,13 @@ def define_paths(self):
     # Or, change the paths here
     else:
         env_paths = {
-            'dfnworks_PATH': None, 
-            'PETSC_DIR': None,
-            'PETSC_ARCH': None,
-            'PFLOTRAN_EXE': None,
-            'LAGRIT_EXE': None,
-            'FEHM_EXE': None
+            "dfnworks_PATH": "/home/msweeney2796/dfnWorks/",
+            "PETSC_DIR": "/home/jhyman/src/petsc",
+            "PETSC_ARCH": "arch-linux-c-debug",
+            "PFLOTRAN_EXE": "/home/jhyman/src/pflotran/src/pflotran/pflotran",
+            "PYTHON_EXE": "/n/swdev/packages/Ubuntu-18.04-x86_64/anaconda3/2020.07/envs/py37/bin/python",
+            "LAGRIT_EXE": "/n/swdev/mesh_tools/lagrit/install-Ubuntu-18.04-x86_64/3.3.2/release//lagrit",
+            "FEHM_EXE": "/home/jhyman/bin/xfehm"    
         }
 
     # Or, read the variables from the environment
